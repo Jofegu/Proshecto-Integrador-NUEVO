@@ -6,24 +6,24 @@ div {
     text-align: center;
 }
 /*Estilo de la foto de perfil*/
-@media (min-width: 576px) {
+@media (min-width: 575px) {
     #fotoDePerfil {
         position:absolute;
         width: 15%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        left: 5%;
-        top: 500px;
+        left: 3%;
+        
     }
 }
-    @media (max-width:575px) {
+    @media (max-width:576px) {
         #fotoDePerfil {
             position:absolute;
             width: 35%;
             border-radius: 100%;
             box-shadow: 3px 3px 3px grey;
             left: 33%;
-            top: 630px;
+            
         }
 }
 #nombre {
